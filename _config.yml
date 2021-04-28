@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 google_analytics: G-CQBW377LCN
 
 head_scripts:
-  -assets/js/ga.js
+  -/assets/ga.js
 #twitter_username: username
 
 github_username: parallelogon
