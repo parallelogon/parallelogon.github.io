@@ -19,6 +19,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   A homepage and digital resume for Zachary Jones
   
 google_analytics: G-CQBW377LCN
+
+head_scripts:
+  -assets/js/ga.js
 teaser: /assets/images/madlyInLove.jpg
 #twitter_username: username
 
