@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 
 # basic site information
-title: Zachary Jones
+title: ZJ
 email: zachary.jones@student.kuleuven.be
 description: >- # this means to ignore newlines until "baseurl:"
   A homepage and digital resume for Zachary Jones
@@ -67,7 +67,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  #name   : "Zachary Jones"
+  name   : "Zachary Jones"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Statistics MSc Student with a Physics Background"
   links:
