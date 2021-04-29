@@ -105,7 +105,7 @@ defaults:
   # _posts
   - scope:
       layout: splash
-      path: ""
+      path: /splash-page/
       type: posts
     values:
       layout: single
