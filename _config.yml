@@ -75,9 +75,9 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Been around the world and all I got was depression."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://parallelogon.github.io"
+#    - label: "Website"
+#      icon: "fas fa-fw fa-link"
+#      url: "https://parallelogon.github.io"
       
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
