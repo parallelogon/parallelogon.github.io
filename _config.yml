@@ -67,7 +67,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Zachary Jones"
+  #name   : "Zachary Jones"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Been around the world and all I got was depression."
   links:
