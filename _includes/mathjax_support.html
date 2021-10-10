@@ -9,7 +9,18 @@ MathJax.Hub.Config({
     inlineMath: [ ['$', '$'] ],
     displayMath: [ ['$$', '$$'] ],
     processEscapes: true,
-  }
+  },
+	"SVG":{ 
+		font:font
+	},
+	"HTML-CSS": {
+		webFont: font,
+		imageFont: font,
+		preferredFont: font,
+		availableFonts: [],
+		scale: 85,
+		mtextFontInherit: true
+	}
 });
 MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
 	  alert("Math Processing Error: "+message[1]);
