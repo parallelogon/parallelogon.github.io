@@ -101,13 +101,8 @@ footer:
 defaults:
   # _posts
   - scope:
-<<<<<<< HEAD
       layout: splash
       path: /splash-page/
-=======
-      #layout: splash
-      path: ""
->>>>>>> b224aa9da319919d8648b497849361881aa06d31
       type: posts
     values:
       layout: single
