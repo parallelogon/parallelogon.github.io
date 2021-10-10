@@ -8,4 +8,4 @@ $$
 	k(x,y) = exp^{\frac{1}{\sigma}|x - y|} 
 $$
 
-This should be inline $$ y = \sqrt(3x) $$, is it?
+This should be inline $ y = \sqrt{3x} $, is it?
