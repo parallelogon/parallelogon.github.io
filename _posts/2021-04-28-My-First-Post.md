@@ -12,6 +12,6 @@ $$
 
 This should be inline $$ y = \sqrt{3x} $$, is it?
 Another thing to try
-\begin{equation}
+\begin{equation} \label{eq:bullshit}
 	y = \frac{1}{2}mx + b
 \end{equation}
