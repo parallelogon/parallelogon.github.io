@@ -11,3 +11,7 @@ $$
 $$
 
 This should be inline $$ y = \sqrt{3x} $$, is it?
+Another thing to try
+\begin{equation}
+	y = \frac{1}{2}mx + b
+\end{equation}
