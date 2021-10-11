@@ -11,7 +11,7 @@ tags:
   - update
 ---
 
-This first post is about the tips and tricks I've used in order to get this github blog/repo up and running.  It is written primarily as a reminder to myself about how to go about building something similar and as possible instructions for whichever desperate soul comes across the same struggles.  The work that I've had to do can be grouped into three sections:
+This first post is about the tips and tricks I've used in order to get this github blog/repo up and running.  It is written primarily as a reminder to myself about how to go about building something similar and as possible instructions for whichever desperate soul comes across the same struggles.  The work that I've done can be grouped into three sections:
 
 1. Installing minimal mistakes and getting the site running
 2. Enabling Mathjax support
@@ -68,7 +68,7 @@ $$
 $$
 
 Beautiful!  The equation can even be referenced \ref{eq: kernel} using `\ref{label}` just as in Latex.  Enabling mathjax takes two steps:
-* create a file in the `_includes` directory: `_includes/mathjax_support.html` and paste into it the following code [source][jekyll-problem-so]:
+1. create a file in the `_includes` directory: `_includes/mathjax_support.html` and paste into it the following code [source][jekyll-problem-so]:
 
         ~~~html
         <script type="text/x-mathjax-config">
@@ -85,7 +85,7 @@ Beautiful!  The equation can even be referenced \ref{eq: kernel} using `\ref{lab
         ~~~
 This sources mathjax (the bottom part) and configures automatic numbering for the `\begin{equation}...\end{equation}` and `\begin{align}...\end{align}` functions work as expected.
 
-* From the original minimal mistakes page copy `_layouts/default.html` into the project's own `_layouts` directory and add the following code before the `</head>` tag:
+2. From the original minimal mistakes page copy `_layouts/default.html` into the project's own `_layouts` directory and add the following code before the `</head>` tag:
 
 {%raw%}
 ~~~
