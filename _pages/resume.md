@@ -13,3 +13,5 @@ Try a table
 | | |
 |:-|-:|
 |name of a thing | Date|
+
+<p align="right">text</p>
