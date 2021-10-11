@@ -16,7 +16,7 @@
 
 # basic site information
 title: ZJ
-email: zachary.jones@student.kuleuven.be
+email: z.a.c.h.a.r.y.j.o.n.e.s@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   A homepage and digital resume for Zachary Jones
   
@@ -35,6 +35,7 @@ locale: "en-US"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
@@ -101,8 +102,8 @@ footer:
 defaults:
   # _posts
   - scope:
-      layout: splash
-      path: /splash-page/
+#      layout: splash
+      path: "" #/splash-page/
       type: posts
     values:
       layout: single
