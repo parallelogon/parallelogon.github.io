@@ -10,5 +10,6 @@ Katholieke Universiteit Leuven (KU Leuven)
 **Master of Science** -- Physics
 
 Try a table
+| | |
 |:-|-:|
 |name of a thing | Date|
