@@ -2,4 +2,7 @@
 permalink: /resume/
 title: "Resume"
 ---
-Here is where a markdown CV will be located.  As soon as I write it...
+
+## Education
+** Master of Science ** in Statistics and Data Science <p style="text-align: right"> 2019-2020 </p>
+Katholieke Universiteit Leuven (KU Leuven)
