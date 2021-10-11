@@ -46,12 +46,13 @@ tags:
 ~~~
 This is YAML (YAML ain't Markup Language) frontmatter, to see all of the possible `tag: value` combinations look through the example posts given as there are quite a few possibilities.  To make the default posts invisible, go through each file and change the `published` key to `false`.
 
+{% comment %}
 Another small change is to the default code highlighting.  In order to customize the syntax highlighting I 
 1. copied the `main.scss` file from the full minimal mistakes installation (located in `/assets/css`) into my own (self made) `/assets/css` directory
 2. modified the CSS using the [pygments][pygments-repo] by copy-pasting the `default.css` CSS into the newly copied `main.scss` file in my directory.
 
 One can then adjust according to taste.
-
+{% endcomment %}
 # Mathjax support
 Not only do I want to write code, but I want to be able to display math rendered in mathjax:
 
@@ -68,19 +69,19 @@ $$
 Beautiful!  The equation can even be referenced \ref{eq: kernel} using `\ref{label}` just as in Latex.  Enabling mathjax takes two steps:
 * create a file in the `_includes` directory: `_includes/mathjax_support.html` and paste into it the following code [source][jekyll-problem-so]:
 
-~~~html
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    TeX: {
-      equationNumbers: { autoNumber: "AMS" },
-      tagSide: "right"
-    }
-});
-</script>
-<script type="text/javascript" charset="utf-8"
-  src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML">
-</script>
-~~~
+        ~~~html
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({
+            TeX: {
+              equationNumbers: { autoNumber: "AMS" },
+              tagSide: "right"
+            }
+        });
+        </script>
+        <script type="text/javascript" charset="utf-8"
+          src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS_CHTML">
+        </script>
+        ~~~
 This sources mathjax (the bottom part) and configures automatic numbering for the `\begin{equation}...\end{equation}` and `\begin{align}...\end{align}` functions work as expected.
 
 * From the original minimal mistakes page copy `_layouts/default.html` into the project's own `_layouts` directory and add the following code before the `</head>` tag:
@@ -99,19 +100,19 @@ Afterwards, add `use_math: true` to the YAML front matter of any given post and 
 To navigate different parts of the website, Jekyll looks in the `_pages` directory in order to source pages with the correct peramalink in the YAML header.  Adding a new section (in this case for a digital version of my resume) again boils down to two steps:
 
 1. Add a new link and permalink to the `_data/navigation.html` file, mine looks like this:
-~~~yaml
-main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
-  - title: "Resume"
-    url: /resume/
-~~~
+        ~~~yaml
+        main:
+          - title: "Posts"
+            url: /posts/
+          - title: "Categories"
+            url: /categories/
+          - title: "Tags"
+            url: /tags/
+          - title: "About"
+            url: /about/
+          - title: "Resume"
+            url: /resume/
+        ~~~
 
 2. In the `_pages` directory add a file `resume.md` with the following YAML front matter
 ~~~yaml
