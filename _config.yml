@@ -35,11 +35,6 @@ locale: "en-US"
 
 # Build settings
 markdown: kramdown
-	input: GFM
-	syntax_highlighter: rouge
-	syntax_highlighter_opts:
-		css_class: 'highlight'
-		
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
