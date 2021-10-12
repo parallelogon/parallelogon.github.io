@@ -46,14 +46,25 @@ tags:
 ~~~
 This is YAML (YAML ain't Markup Language) frontmatter, to see all of the possible `tag: value` combinations look through the example posts given as there are quite a few possibilities.  To make the default posts invisible, go through each file and change the `published` key to `false`.
 
-{% comment %}
+
 Another small change is to the default code highlighting.  In order to customize the syntax highlighting I 
 1. copied the `main.scss` file from the full minimal mistakes installation (located in `/assets/css`) into my own (self made) `/assets/css` directory
-2. modified the CSS using the [pygments][pygments-repo] by copy-pasting the `default.css` CSS into `/assets/css/default.css` 
-3. append `@import "default.css"` to the newly copied `main.scss` file in my directory
+2. copied the entire _sass directory into the repo for my github pages site
+3. modified the file `_sass/minimal-mistakes/_syntax.scss` after lines 59 cutting away all of the code starting with `.highlight {` and replacing it with CSS created by Dmitri Moore, which can be found [here][dmitri]
+4. added the lines:
 
-One can then adjust background color or other attributes according to taste.
-{% endcomment %}
+        ~~~css
+        .highlight pre {
+          width: 100%;
+          background-color: rgb(245, 245, 245);
+        }
+        .highlight  { color: #000000 }
+        ~~~
+	
+	to change the background color to a pleasant off white and the text color to black.
+
+After that it is straightforward to modify the code highlighting to taste.
+
 # Mathjax support
 Not only do I want to write code, but I want to be able to display math rendered in mathjax:
 
@@ -133,7 +144,7 @@ Then the only thing left to do is to write the resume in standard markdown!  I u
 ~~~
 Where the ending `<div styel = "clear: both;"></div>` resets the environment.  All that was left to do was then write the rest of the resume.
 
-
+[dmitri]: https://gist.githubusercontent.com/demisx/025698a7b5e314a7a4b5/raw/d2086c7f59105db4da1ed8d1df8d8586666f66ea/syntax.css
 [c-s]: https://github.com/carolstran/cv/blob/main/README.md
 [jekyll-problem-so]: https://stackoverflow.com/questions/59141529/mathjax-equation-numbers-do-not-show-using-jekyll-on-github-pages
 [pygments-repo]: https://richleland.github.io/pygments-css/
