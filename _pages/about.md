@@ -3,6 +3,10 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+My passion for exploration and knowledge has lead me around the world and through several careers, ultimately leading me to statistics, data science, and machine learning.  The exploration of fundamental structure has always been fascinating for me and I enjoy its exploitation for practical purposes.  In my academic and professional work I've 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+-physics higher dimensional black holes and quantum mechanics
+-statistics probability and geometry
+-machine learning and 
+
+Examining the thermodynamics of higher dimensional black holes, search for fundamental structure with intuitive mathematical thinking and practical applications
